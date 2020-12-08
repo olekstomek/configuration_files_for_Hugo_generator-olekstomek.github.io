@@ -8,9 +8,13 @@ main {
     }
 
     .block.introduction {
-        margin-top: 20vh;
+        margin-bottom: 16vh;
         min-height: calc(100vh - 20vh);
     }
+	
+	.margin-top-19vh {
+		margin-top: 19vh;
+	}
 
     .column.left {
         text-align: end;

@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://olekstomek.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Hallo"
@@ -6,10 +6,9 @@ theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Hallo"
+    name = "Tomek"
 
 [params]
-
     [[params.links]]
         iconset = "fas"
         icon = "envelope"
@@ -19,7 +18,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "github"
         title = "Github"
-        url = "https://github.com/"
+        url = "https://github.com/olekstomek"
 
     [[params.links]]
         icon = "twitter"

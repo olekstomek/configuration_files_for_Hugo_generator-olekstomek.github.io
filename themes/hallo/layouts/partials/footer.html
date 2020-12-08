@@ -1,6 +1,9 @@
 <footer>
-    <div class="column"></div>
+    <div class="column">
+		<img src="images/qr-code.svg" alt="Portrait" />
+	</div>
     <div class="column">
         {{ i18n "generator" | safeHTML }}
+		{{ i18n "created-by" | emojify }}
     </div>
 </footer>

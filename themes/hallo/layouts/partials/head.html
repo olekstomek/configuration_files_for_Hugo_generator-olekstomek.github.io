@@ -35,6 +35,11 @@
     <!-- RSS -->
     <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
+	<!-- JS -->
+	<script src="./particles/particles.min.js"></script>
+	<script src="./app.js"></script>
+
+	
     {{ if hugo.Environment | eq "production" }}
         {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}

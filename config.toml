@@ -1,5 +1,41 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 relativeURLs = true
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hallo" 
+title = "Tomasz Oleksik - Programmer"
+theme = "hallo"
+googleAnalytics = "UA-184205749-1"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
+enableEmoji = true
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+[Author]
+    name = "Tomek"
+	
+[params]
+    [[params.links]]
+        icon = "linkedin-in"
+        title = "LinkedIn"
+        url = "https://www.linkedin.com/in/tomasz-oleksik-03190a189/"
+		
+    [[params.links]]
+        icon = "github"
+        title = "GitHub"
+        url = "https://github.com/olekstomek"
+
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/olekstomek/"
+		
+    [[params.links]]
+        icon = "youtube"
+        title = "YouTube"
+        url = "https://www.youtube.com/c/TomekOleksik/"
+
+    [[params.links]]
+        icon = "github-alt"
+        title = "GitHub Gist"
+        url = "https://gist.github.com/olekstomek"

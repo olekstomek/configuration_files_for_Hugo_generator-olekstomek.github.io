@@ -5,4 +5,7 @@ other = "Hallo"
 other = "Ich bin"
 
 [generator]
-other = "Gemacht mit <a href='https://gohugo.io'>Hugo</a> mit dem Thema <a href='https://github.com/EmielH/hallo-hugo/'>Hallo</a>."
+other = "Gemacht mit <a href='https://gohugo.io' target='_blank'>Hugo</a> mit dem Thema <a href='https://github.com/EmielH/hallo-hugo/' target='_blank'>Hallo</a>."
+
+[created-by]
+other = "</br> Created with :heart: by <a href='http://www.oleksiktomasz.eu'>Tomasz Oleksik</a>"
